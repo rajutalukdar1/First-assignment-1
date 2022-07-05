@@ -71,3 +71,16 @@ hr {
 .link-2 {
     text-align: center;
 }
+
+.itme img {
+    width: 40%;
+}
+
+.itme {
+    display: flex;
+}
+
+.i-d {
+    text-align: center;
+
+}
