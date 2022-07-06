@@ -47,6 +47,11 @@ body {
 
 .div-2 {
     color: red;
+    background-color: rgba(231, 156, 143, 0.375);
+    border: 3px solid tomato;
+    text-align: center;
+    border-radius: 5%;
+
 }
 
 .center {
@@ -119,7 +124,6 @@ hr {
     width: 50%;
     padding: 10px;
     margin: 20px;
-    border-radius: 10px;
 }
 
 .half img {
@@ -128,4 +132,12 @@ hr {
 
 .maegin {
     margin: 20px;
+}
+
+.email {
+    text-align: center;
+}
+
+.readias {
+    border-radius: 10px;
 }
