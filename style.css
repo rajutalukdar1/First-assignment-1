@@ -110,3 +110,22 @@ hr {
 #view {
     background-color: rgb(182, 182, 182);
 }
+
+.flex-con-2 {
+    display: flex;
+}
+
+.half {
+    width: 50%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.half img {
+    width: 100%;
+}
+
+.maegin {
+    margin: 20px;
+}
