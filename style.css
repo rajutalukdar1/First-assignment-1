@@ -76,11 +76,37 @@ hr {
     width: 40%;
 }
 
-.itme {
+#itme {
     display: flex;
 }
 
 .i-d {
     text-align: center;
 
+}
+
+.flex-con-2 {
+    display: flex;
+}
+
+.box {
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px rgb(192, 195, 188);
+
+
+}
+
+#tipe {
+    background-color: antiquewhite;
+}
+
+#itme {
+    background-color: rgb(238, 178, 222);
+}
+
+#view {
+    background-color: rgb(182, 182, 182);
 }
