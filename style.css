@@ -54,13 +54,28 @@ body {
 
 }
 
-.center {
+#main-box {
     text-align: center;
+    padding: 10px;
+
 }
 
-hr {
-    width: 50%;
+
+input[type='text'] {
+    font-size: 18px;
+    border: none;
+    outline: none;
 }
+
+.horizen {
+    width: 55%;
+    text-align: center;
+    margin-bottom: 33px;
+    opacity: 0.3;
+}
+
+
+
 
 
 
@@ -92,6 +107,7 @@ hr {
 
 .flex-con-2 {
     display: flex;
+
 }
 
 .box {
@@ -105,14 +121,17 @@ hr {
 }
 
 #tipe {
+
     background-color: antiquewhite;
 }
 
 #itme {
+
     background-color: rgb(238, 178, 222);
 }
 
 #view {
+
     background-color: rgb(182, 182, 182);
 }
 
@@ -141,3 +160,75 @@ hr {
 .readias {
     border-radius: 10px;
 }
+
+/*--start-email-section--*/
+.main {
+    width: 55%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    height: 210px;
+    position: relative;
+    margin-top: 70px;
+}
+
+.desc {
+
+    width: 500px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+input[type='email'] {
+    background-color: azure;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 5px 0 0 5px;
+}
+
+input[type='submit'] {
+    position: relative;
+    left: -5px;
+    border-radius: 0 5px 5px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: tomato;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    margin: 0%;
+    padding: 25px;
+    margin-top: 120px;
+}
+
+footer>h1 {
+    font-weight: bolder;
+    color: tomato;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+footer>p {
+    font-weight: 100;
+    color: white;
+    padding: 15px;
+    opacity: 0.7;
+}
+
+/*--end-email-section--*/
